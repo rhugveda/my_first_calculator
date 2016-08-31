@@ -4,6 +4,7 @@
 main()
 {
 	add();
+	sub();
 
 
 
@@ -11,7 +12,7 @@ main()
 
 }
 	
-	add()
+	void add()
 	{
 	float a,b;
 	printf("\nEnter first number: ");
@@ -27,7 +28,7 @@ main()
 
 
 
-	/* add()
+	void sub()
          {
 	         float a,b;
 		 printf("\nEnter first number: ");
@@ -36,7 +37,7 @@ main()
 		 printf("\nEnter second number: ");
 		 scanf("%f",&b);
           
-	 	 float sum=a+b;
-                 printf("\nThe sum of %f and %f is %f .",a,b,sum);
-	*/							         }
+	 	 float sub=a-b;
+                 printf("\nThe subtraction of %f and %f is %f .",a,b,sub);
+	}
 									 
